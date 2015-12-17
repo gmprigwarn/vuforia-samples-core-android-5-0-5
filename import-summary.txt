@@ -1,0 +1,183 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .externalToolBuilders\
+* .externalToolBuilders\CopyVuforiaFiles.launch
+* CopyVuforiaFiles.xml
+* license.txt
+* media\
+* media\FlakesBox.pdf
+* media\FlakesBox_Back.png
+* media\FlakesBox_Bottom.png
+* media\FlakesBox_Front.png
+* media\FlakesBox_Left.png
+* media\FlakesBox_Right.png
+* media\FlakesBox_Top.png
+* media\chips.jpg
+* media\stones.jpg
+* media\target_chips_A4.pdf
+* media\target_chips_USLetter.pdf
+* media\target_cylinder.jpg
+* media\target_cylinder_A4.pdf
+* media\target_cylinder_USLetter.pdf
+* media\target_marker_A4.pdf
+* media\target_marker_USLetter.pdf
+* media\target_stones_A4.pdf
+* media\target_stones_USLetter.pdf
+* media\target_tarmac_A4.pdf
+* media\target_tarmac_USLetter.pdf
+* media\target_wood_A4.pdf
+* media\target_wood_USLetter.pdf
+* media\tarmac.jpg
+* media\wood.jpg
+* readme.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* .\ => app\src\main\java\
+* .classpath => app\src\main\resources\.classpath
+* .externalToolBuilders\CopyVuforiaFiles.launch => app\src\main\resources\.externalToolBuilders\CopyVuforiaFiles.launch
+* .project => app\src\main\resources\.project
+* AndroidManifest.xml => app\src\main\resources\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* assets\CloudReco\CR_about.html => app\src\main\resources\assets\CloudReco\CR_about.html
+* assets\CylinderTargets\CY_about.html => app\src\main\resources\assets\CylinderTargets\CY_about.html
+* assets\CylinderTargets\sodacan.dat => app\src\main\resources\assets\CylinderTargets\sodacan.dat
+* assets\CylinderTargets\sodacan.xml => app\src\main\resources\assets\CylinderTargets\sodacan.xml
+* assets\CylinderTargets\sphere.png => app\src\main\resources\assets\CylinderTargets\sphere.png
+* assets\CylinderTargets\Sphere.txt => app\src\main\resources\assets\CylinderTargets\Sphere.txt
+* assets\CylinderTargets\TextureWireframeNoBorder.png => app\src\main\resources\assets\CylinderTargets\TextureWireframeNoBorder.png
+* assets\FrameMarkers\FM_about.html => app\src\main\resources\assets\FrameMarkers\FM_about.html
+* assets\FrameMarkers\letter_A.png => app\src\main\resources\assets\FrameMarkers\letter_A.png
+* assets\FrameMarkers\letter_C.png => app\src\main\resources\assets\FrameMarkers\letter_C.png
+* assets\FrameMarkers\letter_Q.png => app\src\main\resources\assets\FrameMarkers\letter_Q.png
+* assets\FrameMarkers\letter_R.png => app\src\main\resources\assets\FrameMarkers\letter_R.png
+* assets\ImageTargets\Buildings.jpeg => app\src\main\resources\assets\ImageTargets\Buildings.jpeg
+* assets\ImageTargets\Buildings.txt => app\src\main\resources\assets\ImageTargets\Buildings.txt
+* assets\ImageTargets\IT_about.html => app\src\main\resources\assets\ImageTargets\IT_about.html
+* assets\MultiTargets\FlakesBox.dat => app\src\main\resources\assets\MultiTargets\FlakesBox.dat
+* assets\MultiTargets\FlakesBox.xml => app\src\main\resources\assets\MultiTargets\FlakesBox.xml
+* assets\MultiTargets\MT_about.html => app\src\main\resources\assets\MultiTargets\MT_about.html
+* assets\MultiTargets\TextureBowlAndSpoon.png => app\src\main\resources\assets\MultiTargets\TextureBowlAndSpoon.png
+* assets\MultiTargets\TextureWireframe.png => app\src\main\resources\assets\MultiTargets\TextureWireframe.png
+* assets\ObjectRecognition\CubeWireframe.png => app\src\main\resources\assets\ObjectRecognition\CubeWireframe.png
+* assets\ObjectRecognition\OR_about.html => app\src\main\resources\assets\ObjectRecognition\OR_about.html
+* assets\StonesAndChips.dat => app\src\main\resources\assets\StonesAndChips.dat
+* assets\StonesAndChips.xml => app\src\main\resources\assets\StonesAndChips.xml
+* assets\Tarmac.dat => app\src\main\resources\assets\Tarmac.dat
+* assets\Tarmac.xml => app\src\main\resources\assets\Tarmac.xml
+* assets\TextReco\TR_about.html => app\src\main\resources\assets\TextReco\TR_about.html
+* assets\TextReco\Vuforia-English-word.vwl => app\src\main\resources\assets\TextReco\Vuforia-English-word.vwl
+* assets\TextureTeapotBlue.png => app\src\main\resources\assets\TextureTeapotBlue.png
+* assets\TextureTeapotBrass.png => app\src\main\resources\assets\TextureTeapotBrass.png
+* assets\TextureTeapotRed.png => app\src\main\resources\assets\TextureTeapotRed.png
+* assets\UserDefinedTargets\UD_about.html => app\src\main\resources\assets\UserDefinedTargets\UD_about.html
+* assets\UserDefinedTargets\viewfinder_crop_marks_landscape.png => app\src\main\resources\assets\UserDefinedTargets\viewfinder_crop_marks_landscape.png
+* assets\UserDefinedTargets\viewfinder_crop_marks_portrait.png => app\src\main\resources\assets\UserDefinedTargets\viewfinder_crop_marks_portrait.png
+* assets\VirtualButtons\TextureTeapotGreen.png => app\src\main\resources\assets\VirtualButtons\TextureTeapotGreen.png
+* assets\VirtualButtons\TextureTeapotYellow.png => app\src\main\resources\assets\VirtualButtons\TextureTeapotYellow.png
+* assets\VirtualButtons\VB_about.html => app\src\main\resources\assets\VirtualButtons\VB_about.html
+* assets\VirtualButtons\Wood.dat => app\src\main\resources\assets\VirtualButtons\Wood.dat
+* assets\VirtualButtons\Wood.xml => app\src\main\resources\assets\VirtualButtons\Wood.xml
+* CopyVuforiaFiles.xml => app\src\main\resources\CopyVuforiaFiles.xml
+* license.txt => app\src\main\resources\license.txt
+* media\chips.jpg => app\src\main\resources\media\chips.jpg
+* media\FlakesBox.pdf => app\src\main\resources\media\FlakesBox.pdf
+* media\FlakesBox_Back.png => app\src\main\resources\media\FlakesBox_Back.png
+* media\FlakesBox_Bottom.png => app\src\main\resources\media\FlakesBox_Bottom.png
+* media\FlakesBox_Front.png => app\src\main\resources\media\FlakesBox_Front.png
+* media\FlakesBox_Left.png => app\src\main\resources\media\FlakesBox_Left.png
+* media\FlakesBox_Right.png => app\src\main\resources\media\FlakesBox_Right.png
+* media\FlakesBox_Top.png => app\src\main\resources\media\FlakesBox_Top.png
+* media\stones.jpg => app\src\main\resources\media\stones.jpg
+* media\target_chips_A4.pdf => app\src\main\resources\media\target_chips_A4.pdf
+* media\target_chips_USLetter.pdf => app\src\main\resources\media\target_chips_USLetter.pdf
+* media\target_cylinder.jpg => app\src\main\resources\media\target_cylinder.jpg
+* media\target_cylinder_A4.pdf => app\src\main\resources\media\target_cylinder_A4.pdf
+* media\target_cylinder_USLetter.pdf => app\src\main\resources\media\target_cylinder_USLetter.pdf
+* media\target_marker_A4.pdf => app\src\main\resources\media\target_marker_A4.pdf
+* media\target_marker_USLetter.pdf => app\src\main\resources\media\target_marker_USLetter.pdf
+* media\target_stones_A4.pdf => app\src\main\resources\media\target_stones_A4.pdf
+* media\target_stones_USLetter.pdf => app\src\main\resources\media\target_stones_USLetter.pdf
+* media\target_tarmac_A4.pdf => app\src\main\resources\media\target_tarmac_A4.pdf
+* media\target_tarmac_USLetter.pdf => app\src\main\resources\media\target_tarmac_USLetter.pdf
+* media\target_wood_A4.pdf => app\src\main\resources\media\target_wood_A4.pdf
+* media\target_wood_USLetter.pdf => app\src\main\resources\media\target_wood_USLetter.pdf
+* media\tarmac.jpg => app\src\main\resources\media\tarmac.jpg
+* media\wood.jpg => app\src\main\resources\media\wood.jpg
+* project.properties => app\src\main\resources\project.properties
+* readme.txt => app\src\main\resources\readme.txt
+* res\ => app\src\main\res\
+* res\drawable-hdpi\icon.png => app\src\main\resources\res\drawable-hdpi\icon.png
+* res\drawable-hdpi\logo.png => app\src\main\resources\res\drawable-hdpi\logo.png
+* res\drawable-ldpi\icon.png => app\src\main\resources\res\drawable-ldpi\icon.png
+* res\drawable-ldpi\logo.png => app\src\main\resources\res\drawable-ldpi\logo.png
+* res\drawable-mdpi\icon.png => app\src\main\resources\res\drawable-mdpi\icon.png
+* res\drawable-mdpi\logo.png => app\src\main\resources\res\drawable-mdpi\logo.png
+* res\drawable-xhdpi\icon.png => app\src\main\resources\res\drawable-xhdpi\icon.png
+* res\drawable-xhdpi\logo.png => app\src\main\resources\res\drawable-xhdpi\logo.png
+* res\drawable-xxhdpi\icon.png => app\src\main\resources\res\drawable-xxhdpi\icon.png
+* res\drawable-xxhdpi\logo.png => app\src\main\resources\res\drawable-xxhdpi\logo.png
+* res\drawable\bg00.png => app\src\main\resources\res\drawable\bg00.png
+* res\drawable\bg70.png => app\src\main\resources\res\drawable\bg70.png
+* res\drawable\button_close_normal.png => app\src\main\resources\res\drawable\button_close_normal.png
+* res\drawable\button_close_pressed.png => app\src\main\resources\res\drawable\button_close_pressed.png
+* res\drawable\camera_button_background.xml => app\src\main\resources\res\drawable\camera_button_background.xml
+* res\drawable\close_button_background.xml => app\src\main\resources\res\drawable\close_button_background.xml
+* res\drawable\icon.png => app\src\main\resources\res\drawable\icon.png
+* res\drawable\icon_01.png => app\src\main\resources\res\drawable\icon_01.png
+* res\drawable\icon_02.png => app\src\main\resources\res\drawable\icon_02.png
+* res\drawable\icon_03.png => app\src\main\resources\res\drawable\icon_03.png
+* res\drawable\icon_camera_normal.png => app\src\main\resources\res\drawable\icon_camera_normal.png
+* res\drawable\icon_camera_pressed.png => app\src\main\resources\res\drawable\icon_camera_pressed.png
+* res\drawable\icon_plus_normal.png => app\src\main\resources\res\drawable\icon_plus_normal.png
+* res\drawable\icon_plus_pressed.png => app\src\main\resources\res\drawable\icon_plus_pressed.png
+* res\drawable\logo.png => app\src\main\resources\res\drawable\logo.png
+* res\drawable\new_target_button_background.xml => app\src\main\resources\res\drawable\new_target_button_background.xml
+* res\drawable\vuforia_splash.png => app\src\main\resources\res\drawable\vuforia_splash.png
+* res\layout\about_screen.xml => app\src\main\resources\res\layout\about_screen.xml
+* res\layout\activities_list.xml => app\src\main\resources\res\layout\activities_list.xml
+* res\layout\activities_list_text_view.xml => app\src\main\resources\res\layout\activities_list_text_view.xml
+* res\layout\camera_overlay.xml => app\src\main\resources\res\layout\camera_overlay.xml
+* res\layout\camera_overlay_textreco.xml => app\src\main\resources\res\layout\camera_overlay_textreco.xml
+* res\layout\camera_overlay_udt.xml => app\src\main\resources\res\layout\camera_overlay_udt.xml
+* res\layout\sample_app_menu_group.xml => app\src\main\resources\res\layout\sample_app_menu_group.xml
+* res\layout\sample_app_menu_group_divider.xml => app\src\main\resources\res\layout\sample_app_menu_group_divider.xml
+* res\layout\sample_app_menu_group_radio_button.xml => app\src\main\resources\res\layout\sample_app_menu_group_radio_button.xml
+* res\layout\sample_app_menu_layer.xml => app\src\main\resources\res\layout\sample_app_menu_layer.xml
+* res\layout\splash_screen.xml => app\src\main\resources\res\layout\splash_screen.xml
+* res\values-hdpi\dimens.xml => app\src\main\resources\res\values-hdpi\dimens.xml
+* res\values-ldpi\dimens.xml => app\src\main\resources\res\values-ldpi\dimens.xml
+* res\values-mdpi\dimens.xml => app\src\main\resources\res\values-mdpi\dimens.xml
+* res\values-v13\styles.xml => app\src\main\resources\res\values-v13\styles.xml
+* res\values-xhdpi\dimens.xml => app\src\main\resources\res\values-xhdpi\dimens.xml
+* res\values-xxhdpi\dimens.xml => app\src\main\resources\res\values-xxhdpi\dimens.xml
+* res\values\colors.xml => app\src\main\resources\res\values\colors.xml
+* res\values\dimens.xml => app\src\main\resources\res\values\dimens.xml
+* res\values\strings.xml => app\src\main\resources\res\values\strings.xml
+* res\values\styles.xml => app\src\main\resources\res\values\styles.xml
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
